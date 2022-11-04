@@ -18,15 +18,15 @@ function App() {
     <div className="App">
       
       
-      {/* <Routes>
+      <Routes>
           <Route path='/home' element= {< Dashboard />} ></Route>
           <Route path='/inventory' element= {< Inventory />} ></Route>
           <Route path='/sales' element= {< Sales />} ></Route>
           <Route path='/order_delivery' element= {< OrderDelivery />} ></Route>
           <Route path='/employee' element= {< Employee />} ></Route>
           
-        </Routes>  */}
-        <Test />
+        </Routes> 
+        <Navigation />
        
         
       <Row style={{marginTop: '3%'}}>
